@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*banniere de toutes les différentes pages*/
+
+.banniere {
+    width: 100%;
+    height: 400px;
+}
+
+nav {
+    padding-left: 35%;
+    background-color: RGB(0, 52, 83);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 25px;
+    color: RGB(239, 86, 91);
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: aliceblue;
+}
+
+/*les boutons des menus et couleurs*/
+
+.bouton {
+    display: inline;
+    padding: 10px;
+}
+
+.bouton2 {
+    display: inline;
+    padding-left: 10%;
+}
+
+.bouton3 {
+    display: inline;
+    padding-left: 6.5%;
+}
+
+.bouton4 {
+    display: inline;
+    padding-left: 9%;
+}
+
+.bouton5 {
+    display: inline;
+    padding-left: 12%;
+}
+
+.bouton6{
+    display: inline;
+    padding-left:4.5%;
+}
+
+.bouton7{
+    display: inline;
+    padding-left:0.8%;
+}
+
+.bouton8{
+    display: inline;
+    padding-left:21%;
+}
+
+.bouton9{
+    display: inline;
+    padding-left: 17.5%;
+}
+
+.lien2{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: RGB(239, 86, 91);
+    font-size: 20px;
+}
+
+.lien2:hover {
+    color: aliceblue;
+}
+
+/*position des menus*/
+
+#menu2 {
+    float: right;
+    padding-left: 60px;
+}

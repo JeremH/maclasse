@@ -1,0 +1,810 @@
+/*reset css*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+.divpara {
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1em;
+    padding-left: 5%;
+    font-family: Palatino Linotype;
+    line-height: 5px;
+}
+
+#logo {
+    height: 200px;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 40%;
+    ;
+}
+
+p {
+    font-family: cursive;
+    text-align: justify;
+}
+
+/*page matiere*/
+
+header {
+    background-color: RGBA(0, 52, 83);
+}
+
+/*page histoire*/
+
+.pagehistoire {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid RGB(0, 52, 83);
+    border-radius: 5px;
+    background-color: RGB(255, 250, 240);
+}
+
+#frise {
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+}
+
+/*page source histoire*/
+
+.imgsource {
+    width: 70%;
+    margin: auto;
+    padding-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*tableau source*/
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: floralwhite;
+}
+
+table {
+    width: 100%;
+    height: 500px;
+}
+
+#titretab {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+td {
+    font-style: italic;
+}
+
+p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.retour {
+    padding-left: 15%;
+}
+
+/*préhistoire*/
+
+#tabpre {
+    width: 100%;
+    height: 200px;
+}
+
+.tabpre,
+.tdtab,
+.thtab,
+.trtab {
+    background-color: white;
+    border: none;
+}
+
+/*les cartes et liens pour présentation matieres*/
+
+#galerie {
+    width: 60%;
+    margin: 30px auto;
+    padding-left: 5%;
+}
+
+#galerie figure {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 10px 10px 25px 10px;
+    background: #eee;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;
+}
+
+#galerie figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#galerie figure:hover {
+    z-index: 10;
+    box-shadow: 3px 5px 15px #000;
+    background-color: #fff;
+}
+
+.picture {
+    width: 200px;
+    height: 200px;
+}
+
+
+#galerie2 {
+    width: 100%;
+    margin: 60px auto;
+    padding-left: 12%;
+}
+
+#galerie2 figure {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 10px 10px 25px 10px;
+    background: #eee;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;
+}
+
+#galerie2 figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#galerie2 figure:hover {
+    z-index: 10;
+    box-shadow: 3px 5px 15px #000;
+    background-color: #fff;
+}
+
+#galerie3 {
+    width: 100%;
+    margin: 40px auto;
+}
+
+#galerie3 figure {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 10px 10px 25px 10px;
+    background: #eee;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;
+}
+
+#galerie3 figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#galerie3 figure:hover {
+    z-index: 10;
+    box-shadow: 3px 5px 15px #000;
+    background-color: #fff;
+}
+
+#galerie4 {
+    width: 78%;
+    margin: 20px auto;
+    padding-left: 18%;
+}
+
+#galerie4 figure {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 10px 10px 25px 10px;
+    background: #eee;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;
+}
+
+#galerie4 figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#galerie4 figure:hover {
+    z-index: 10;
+    box-shadow: 3px 5px 15px #000;
+    background-color: #fff;
+}
+
+#galerie5 {
+    width: 95%;
+    margin: 20px auto;
+    padding-left: 5%;
+}
+
+#galerie5 figure {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 10px 10px 25px 10px;
+    background: #eee;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;
+}
+
+#galerie5 figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#galerie5 figure:hover {
+    z-index: 10;
+    box-shadow: 3px 5px 15px #000;
+    background-color: #fff;
+}
+
+#galerie6 {
+    width: 82%;
+    margin: 20px auto;
+    padding-left: 5%;
+}
+
+#galerie6 figure {
+    float: left;
+    margin: 0 10px 10px 0;
+    padding: 10px 10px 25px 10px;
+    background: #eee;
+    border: 1px solid #fff;
+    box-shadow: 0px 2px 15px #333;
+}
+
+#galerie6 figcaption {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#galerie6 figure:hover {
+    z-index: 10;
+    box-shadow: 3px 5px 15px #000;
+    background-color: #fff;
+}
+
+.pagesmatiere {
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+
+.pagesmatiere2 {
+    width: 70%;
+    padding-left: 12%;
+}
+
+.pagesmatiere3 {
+    width: 80%;
+    padding-left: 4%;
+}
+
+.pagesmatiere4 {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid RGB(0, 52, 83);
+    border-radius: 5px;
+    background-color: RGB(236, 246, 248);
+}
+
+.pagesmatiere5 {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid RGB(0, 52, 83);
+    border-radius: 5px;
+    background-color: RGB(236, 246, 248);
+}
+
+.pagesmatiere6 {
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+.pagesmatiere7 {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 2px solid RGB(0, 52, 83);
+    border-radius: 5px;
+    background-color: RGB(255, 250, 240);
+}
+
+
+.textfig {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#citationmaths {
+    width: 60%;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 0px;
+}
+
+#citationmaths2 {
+    width: 45%;
+    margin: auto;
+    padding: auto;
+    padding-left: 70px;
+    padding-bottom: 0px;
+}
+
+.titremaths {
+    padding-top: 20px;
+}
+
+.tableadd {
+    width: 70%;
+    height: 440px;
+    padding-top: 10px;
+    padding-left: 12%;
+}
+
+#tabpronom {
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+    padding: auto;
+}
+
+#fraction {
+    padding-top: 30px;
+    padding-left: 8%;
+}
+
+.tab {
+    padding-top: 20px;
+    padding-left: 15%;
+    width: 70%;
+}
+
+.tab2 {
+    padding-top: 20px;
+    padding-left: 16%;
+    width: 80%;
+}
+
+#piedpage {
+    background-color: RGB(247, 249, 248);
+}
+
+.baspage {
+    display: inline-block;
+    padding-left: 10%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 0.8em;
+    color: RGB(51, 51, 83);
+}
+
+.baspage1 {
+    display: inline-block;
+    padding-left: 11%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 0.8em;
+    color: RGB(51, 51, 83);
+}
+
+/*page apparition histoire*/
+
+.australo {
+    padding-left: 11%;
+}
+
+.australo1 {
+    padding-left: 35%;
+}
+
+/*page invasion*/
+
+.invasion {
+    padding-left: 35%;
+}
+
+.invasion1 {
+    padding-left: 14%;
+}
+
+.viking_image{
+    padding-left: 35%;
+}
+
+/*page merovingiens et charlemagne*/
+
+.tabmero {
+    width: 100%;
+}
+
+.charlem {
+    padding-left: 15%;
+}
+
+figure {
+    display: inline-block;
+    padding-left: 8%;
+    padding-top: 20px;
+}
+
+#siegeinvasion {
+    padding-left: 7%;
+}
+
+#siegeinvasion1 {
+    padding-left: 35%;
+    font-style: italic;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.imginvasion {
+    padding-left: 13%;
+}
+
+.espace1 {
+    padding: 30px;
+}
+
+/*histoire et cine*/
+
+.affiche_film{
+    float: left;
+    padding-top: 15px;
+}
+
+.titre_film{
+    line-height: 100px;
+}
+
+/*arts et visuel*/
+
+.imgligne {
+    height: 250px;
+    width: 30%;
+    padding-left: 16%;
+    padding-top: 20px;
+}
+
+.imgligne1 {
+    height: 300px;
+    width: 40%;
+    padding-left: 33%;
+    padding-top: 20px;
+}
+
+.imgpointdefuite {
+    height: 220px;
+    width: 25%;
+    padding-left: 7%;
+    padding-top: 10px;
+}
+
+/*texte dans le francais */
+
+.textfr {
+    width: 100%;
+    padding-bottom: 0;
+    padding-left: 15%;
+}
+
+.textfr1 {
+    width: 70%;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 0;
+}
+
+.tab_fonction {
+    padding-left: 5%;
+    width: 86.3%;
+}
+
+.tab_francais {
+    padding-left: 10%;
+}
+
+.souligne {
+    text-decoration: underline;
+}
+
+.tab_conjugaison {
+    padding-left: 18%;
+    margin-bottom: 12px;
+}
+
+.tab_verbe {
+    padding-left: 10%;
+}
+
+/*maths*/
+
+/*formulaire*/
+
+#contact {
+    width: 500px;
+    margin: 30px auto;
+    padding: 60px 30px;
+    background: RGB(254, 252, 214);
+    border: 3px solid RGB(0, 52, 83);
+}
+
+#titreform {
+    font-size: 30px;
+    color: RGB(0, 52, 83);
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+
+#titre2form {
+    text-align: center;
+    color: RGB(0, 52, 83);
+    padding-bottom: 20px;
+}
+
+label {
+    float: left;
+    clear: left;
+    text-align: right;
+    width: 20%;
+    color: RGB(0, 52, 83);
+    margin: 11px 20px 0 0;
+    padding-left: 12%;
+}
+
+input {
+    width: 30%;
+    height: 30px;
+    padding: 5px 20px 0px 20px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 30%;
+    height: 170px;
+    padding: 12px 20px 0px 20px;
+    border-radius: 5px;
+}
+
+input:focus,
+textarea:focus {
+    background: RGB(255, 254, 233);
+}
+
+#envoi {
+    width: 180px;
+    height: 30px;
+    text-transform: uppercase;
+    padding: 6px 15px;
+}
+
+#annule {
+    width: 180px;
+    height: 30px;
+    text-transform: uppercase;
+    padding: 6px 15px;
+}
+
+#bt {
+    padding-left: 12%;
+}
+
+/*francais*/
+
+.tabfrancais {
+    width: 100%;
+    padding-left: 0.5%;
+    padding-bottom: 20px;
+}
+
+#plansite {
+    width: 80%;
+    margin: auto;
+    padding: auto;
+    padding-top: 30px;
+}
+
+/*arts visuels avec les différentes images*/
+
+#lignedeforme {
+    width: 50%;
+    padding-left: 23%
+}
+
+.cercle {
+    width: 65%;
+    padding-left: 15%
+}
+
+.tableau_picasso {
+    width: 40%;
+    padding-left: 70px;
+    height: 290px;
+}
+
+.tableau_cezanne {
+    width: 45%;
+    padding-left: 40px;
+    height: 290px;
+}
+
+.tableau_vangogh {
+    width: 45%;
+    padding-left: 40px;
+    height: 290px;
+}
+
+.visage_manga {
+    width: 40%;
+    padding-left: 30px;
+    height: 490px;
+}
+
+#origami {
+    width: 100%;
+    height: 900px;
+    padding-left: 3%;
+}
+
+.text_art {
+    font-size: 20px;
+}
+
+.text_art2 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+#couleurs_primaire {
+    padding-left: 15%;
+}
+
+#tab_couleurs {
+    padding-left: 25%;
+    width: 50%;
+}
+
+#bleu {
+    color: blue;
+}
+
+#rouge {
+    color: red;
+}
+
+#jaune {
+    color: yellow;
+}
+
+#orange {
+    color: orangered;
+}
+
+#vert {
+    color: green;
+}
+
+#violet {
+    color: blueviolet;
+}
+
+#couleurs_chaudes {
+    width: 40%;
+    height: 350px;
+    padding-left: 7%;
+}
+
+#cercle_chromatique {
+    width: 40%;
+    height: 350px;
+    padding-left: 5%;
+}
+
+/*page sciences*/
+
+#evolution_homme {
+    width: 100%;
+    padding-left: 17%;
+}
+
+#evolution_vie {
+    width: 100%;
+    height: 400px;
+}
+
+#evolution_terre {
+    width: 100%;
+    height: 280px;
+}
+
+#vid_evolution {
+    padding-left: 20%;
+    padding-top: 20px;
+}
+
+.evolpdf {
+    width: 30%;
+    height: 300px;
+    padding-left: 2%;
+}
+
+#masse {
+    padding-left: 20%;
+}
+
+#chaine_volcans {
+    padding-left: 27%;
+}
+
+.schema_volcan {
+    width: 40%;
+    height: 350px;
+    padding-left: 7%;
+}
+
+.volcans {
+    width: 23%;
+    height: 280px;
+    padding-left: 1%;
+}
+
+#plante_carnivore{
+    padding-left: 20%;
+}
+
+#video_rechauffement{
+    width: 70%;
+    height: 450px;
+    padding-left: 14%;
+}
+
+#lune{
+    width: 60%;
+    height: 500px;
+    padding-left: 18%;
+}
+
+#phase_lune{
+    padding-left: 23%;
+}
+
+.genetique{
+    width: 49%;
+    height: 550px;
+    padding-left: 5px;
+}
+
+.genetique2{
+    width: 49%;
+    height: 550px;
+    padding-left: 25%;
+}

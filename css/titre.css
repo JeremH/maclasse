@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#divtitre {
+    letter-spacing: 2px;
+    font-size: 3.1em;
+    text-align: center;
+    padding-left: 3%;
+}
+
+#titre {
+    font-size: 25px;
+    padding-left: 10px;
+    float: left;
+}
+
+#titre2 {
+    text-decoration: none;
+    color: RGB(239, 86, 91);
+}
+
+#titre3{
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+#titremat {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    font-size: 2.5em;
+    font-family: cursive;
+    color: RGB(0, 52, 83);
+}
+
+/*titre page histoire*/
+
+.h2histoire {
+    color: RGB(239, 86, 91);
+    text-decoration: underline;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-family: Comic Sans MS;
+}
+
+.h3histoire {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-family: Comic Sans MS;
+}
+
+.titressmenu {
+    color: RGB(0, 52, 83);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    font-family: Comic Sans MS;
+}
+
+.titresmatiere {
+    color: RGB(0, 52, 83);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    font-family: Comic Sans MS;
+}
+
+h4 {
+    text-decoration: underline;
+    color: RGB(123, 36, 28);
+}
+
+.titreh4{
+    text-decoration: underline;
+    color: RGB(123, 36, 28);
+    font-size: 2em;
+}
+
+#questionhist {
+    text-decoration: underline;
+}
+
+.histoirequest {
+    text-decoration: underline;
+}
+
+#titreh3 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.titreh3ligne {
+    text-align: center;
+    font-size: 1.5em;
+}
+.titreh3ligne2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+.ligne3 {
+    text-decoration: none;
+    color: black;
+}
+
+.ligne3:hover {
+    text-decoration: none;
+    color: RGB(239, 86, 91);
+}
+
+.titreh2 {
+    text-align: center;
+    font-size: 1.9em;
+    padding: 15px;
+    text-decoration: underline;
+}
+
+.h3francais {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2em;
+    color: RGB(57,39,132);
+}
+
+.h3maths{
+    text-decoration: underline;
+    font-size: 1.8em;
+    color: RGB(57,39,132);
+    padding-bottom: 20px;
+}
+
+.h3_evolution{
+    text-decoration: underline;
+    font-size: 1.8em;
+    color: RGB(0, 52, 83);
+}

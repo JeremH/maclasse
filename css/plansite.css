@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titre_plan{
+    text-align: center;
+}
+
+.niv1{
+    font-size: 25px;
+    text-decoration: underline;
+    list-style-type: none;
+}
+
+.niv2{
+    font-size: 22px;
+    padding-left: 2%;
+    list-style-type: none;
+}
+.niv3{
+    font-size: 20px;
+    padding-left: 4%;
+    list-style-type: none;
+}
+.niv4{
+    font-size: 18px;
+    padding-left: 6%;
+    list-style-type: none;
+}
+.niv5{
+    font-size: 16px;
+    padding-left: 8%;
+    list-style-type: none;
+}

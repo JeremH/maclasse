@@ -1,0 +1,141 @@
+.cadrepdf{
+    border: solid 2px RGB(1,88,131);
+}
+
+.cadrepdf1{
+    width: 70%;
+    margin: auto;
+    padding: auto;
+}
+
+.cadrepdf2{
+    margin-left: 5%;
+    width: 86%;
+    border: solid 2px RGB(1,88,131);
+}
+
+#parapdf{
+    padding-top: 0;
+    height: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: RGB(168,204,222);
+    font-weight: bold;
+}
+
+.textexo{
+    text-align: center;
+    padding-top: 0;
+    height: 10px;
+    text-transform: uppercase;
+    background-color: RGB(168,204,222);
+    font-size: 0.77em;
+    font-weight: bold;
+}
+.textexo1{
+    text-align: center;
+    padding-top: 0;
+    height: 20px;
+    text-transform: uppercase;
+    background-color: RGB(168,204,222);
+    font-size: 0.99em;
+    font-weight: bold;
+}
+
+.lienspdf {
+    text-decoration: none;
+    color: black;
+}
+
+.lienspdf:hover{
+    color:RGB(239, 86, 91);
+}
+
+.lienspdf1 {
+    text-decoration: none;
+    color:RGB(1,88,131) ;
+}
+
+.lienspdf1:hover{
+    color:RGB(239, 86, 91);
+}
+
+.lienspdf2 {
+    text-decoration: none;
+    color:RGB(1,88,131) ;
+    padding-left: 40%;
+}
+
+.lienspdf2:hover{
+    color:RGB(239, 86, 91);
+}
+
+.lienspdf3 {
+    text-decoration: none;
+    color:RGB(1,88,131) ;
+    padding-left: 20%;
+}
+
+.lienspdf3:hover{
+    color:RGB(239, 86, 91);
+}
+#centrepdf{
+    padding-left: 35%;
+}
+#textpdf{
+    text-align: center;
+    height: 20px;
+}
+
+#lienshist {
+    padding-top: 16%;
+    padding-left: 31%;
+}
+
+#lienshist1 {
+    padding-top:10px;
+    padding-left: 31%;
+}
+
+#phrasepreh{
+    padding-left: 15%;
+    text-decoration: underline;
+}
+
+.espace {
+    padding-left: 30px;
+}
+
+.exo{
+    display: inline-block;
+    padding-left: 2%;
+}
+
+.lienhistoire {
+    text-decoration: none;
+    color: RGB(239, 86, 91);
+}
+
+.lienhistoire:hover {
+    text-shadow: RGB(51, 69, 104) 0.05em 0.05em 0.05em;
+}
+
+.lienbas {
+    text-decoration: none;
+    color: RGB(153, 153, 153);
+
+}
+
+#textgif{
+    padding-left: 17%;
+    color:RGB(51, 69, 104);
+}
+
+#gif{
+    text-decoration: none;
+    color:RGB(51, 69, 104);
+}
+
+#gif:hover{
+    color: RGB(239, 86, 91);
+}

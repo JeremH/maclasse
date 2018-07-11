@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Courtin & Jérémy Hainselin">
+    <meta name="description" content="Pour avoir plus de renseignements sur maclasse.com">
+    <title>Page de Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/titre.css">
+    <link rel="stylesheet" href="css/bannieremenu.css">
+    <link rel="icon" type="image/png" href="img/ardoise/favicon.png" />
+</head>
+
+<body>
+    <header>
+        <h1 id="titre"><a href="index.html" id="titre2">MACLASSE.COM</a></h1>
+        <div id="menu2">
+            <ul>
+                <li class="bouton"><a href="index.html" class="lien2">Accueil</a></li>
+                <li class="bouton"><a href="matiere.html" class="lien2">Matières</a></li>
+            </ul>
+        </div>
+
+        <img src="img/banniere/contact.jpg" alt="bannière" class="banniere">
+    </header>
+
+    <div class="pagesmatiere">
+        <div id="contact">
+            <h1 id="titreform">Besoin de renseignements sur maclasse.com?</h1>
+            <h2 id="titre2form">Pour nous écrire, il faut remplir le formulaire</h2>
+            <form method="post" action="">
+                <p>
+                    <label for="nom">Ton Nom :</label>
+                    <input type="text" name="nom" id="nom" size="30" maxlength="10" autofocus />
+                    <span id="errnom"></span>
+                </p>
+                <p>
+                    <label for="prenom">Ton Prénom :</label>
+                    <input type="text" name="prenom" id="prenom" size="30" maxlength="10" />
+                    <span id="errprnom"></span>
+                </p>
+                <p>
+                    <label for="email">Ton Email :</label>
+                    <input type="email" name="email" id="email" size="30" maxlength="10" />
+                    <span id="errmail"></span>
+                </p>
+                <p>
+                    <label for="message">Message :</label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    <span id="errmess"></span>
+                </p>
+                <p id="bt">
+                    <input type="submit" name="envoi" value="Envoyer" id="envoi" />
+                    <input type="reset" name="annule" value="Effacer" id="annule" />
+                </p>
+            </form>
+        </div>
+    </div>
+
+     <div id="piedpage">
+        <p class="baspage1"><a href="" class="lienbas">Mentions légales</a> / <a href="" class="lienbas">Qui sommes-nous ?</a> / <a href="" class="lienbas">Plan du site</a></p>
+        <p class="baspage1">Nos matières : <a href="francais.html" class="lienbas">français</a> - <a href="maths.html" class="lienbas">mathématiques</a> - <a href="histoire.html" class="lienbas">histoire</a> - <a href="sciences.html" class="lienbas">sciences</a> - <a href="artsvisuel.html" class="lienbas">arts visuels</a> - <a href="" class="lienbas">la cour de récré</a></p>
+    </div>
+</body>
+
+</html>
