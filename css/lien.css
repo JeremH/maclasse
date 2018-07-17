@@ -88,7 +88,7 @@
 }
 
 #lienshist {
-    padding-top: 16%;
+    padding-top: 12%;
     padding-left: 31%;
 }
 
@@ -138,4 +138,37 @@
 
 #gif:hover{
     color: RGB(239, 86, 91);
+}
+
+.lien_tab{
+    text-decoration: none;
+    color: black;
+}
+
+.lien_tab:hover{
+    color: RGB(153, 153, 153);
+}
+
+.lien_moyen{
+    text-decoration:underline dotted;
+    color:RGB(49,143,252);
+}
+
+.lien_moyen:hover{
+    text-decoration: none;
+    color: RGB(239, 86, 91);
+}
+
+.lien_moyen2{
+    text-decoration: none;
+    color:RGB(2,117,251);
+}
+
+.lien_moyen2:hover{
+    text-decoration: underline dotted;
+    color: RGB(239, 86, 91);
+}
+
+.lien_liste{
+    list-style: none;
 }

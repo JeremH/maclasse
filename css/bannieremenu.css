@@ -41,6 +41,9 @@ nav a:hover {
 
 /*les boutons des menus et couleurs*/
 
+.boutonmenu{
+    padding-left: 20%;
+}
 .bouton {
     display: inline;
     padding: 10px;
@@ -73,7 +76,7 @@ nav a:hover {
 
 .bouton7{
     display: inline;
-    padding-left:0.8%;
+    padding-left:5%;
 }
 
 .bouton8{
