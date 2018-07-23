@@ -5,16 +5,16 @@
     padding: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 
     /*page d accueil*/
     .banniere {
         width: 100%;
-        height: 200px;
+        height: 120px;
     }
 
     nav {
-        padding-left: 17%;
+        padding-left: 1.5%;
         background-color: RGB(0, 52, 83);
     }
 
@@ -44,7 +44,7 @@
 
     #logo {
         height: 100px;
-        padding-left: 35%;
+        padding-left: 27%;
     }
 
     #piedpage {
@@ -52,19 +52,48 @@
     }
 
     .baspage {
-        padding-left: 2%;
-        font-size: 0.5em;
+        padding-left: 1%;
+        font-size: 0.4em;
     }
 
     #titre {
-        font-size: 18px;
+        font-size: 12.7px;
     }
 
     .lien2 {
-        font-size: 10px;
+        font-size: 9px;
     }
 
-    .titresmatiere {
+    .lienspdf {
+        font-size: 0.7em;
+        padding-left: 2%;
+    }
+    .bouton {
+        padding: 2px;
+    }
+
+    .bouton3 {
+        padding-left: 9.5%;
+    }
+
+    .bouton5 {
+        padding-left: 6%;
+    }
+
+    .bouton6 {
+        padding-left: 5%;
+    }
+
+    .bouton8 {
+        padding-left: 15%;
+    }
+
+    .bouton9 {
+        padding-left: 14%;
+    }
+
+    .titresmatiere,
+    .h3mentions {
         font-size: 25px;
     }
 
@@ -72,16 +101,33 @@
         font-size: 13px;
     }
 
-    .h3mentions {
-        font-size: 25px;
-    }
-
     #titremat {
         font-size: 20px;
     }
 
     #galerie {
-        padding-left: 27%;
+        padding-left: 16.5%;
+    }
+
+    #galerie2 {
+        width: 90%;
+        padding-left: 26%;
+    }
+
+    #galerie2 figure {
+        width: 50%;
+    }
+
+    #galerie4 {
+        padding-left: 3%;
+    }
+
+    #galerie5 {
+        padding-left: 16%;
+    }
+
+    #galerie7 {
+        padding-left: 0.3%;
     }
 
     .affiche_film {
@@ -94,19 +140,951 @@
         padding-top: 25%;
     }
 
+    #parapdf {
+        font-size: 0.64em;
+        padding-top: 2px;
+    }
+
     /*ardoise*/
     .courssuiv1 {
+        padding-left: 30%;
+    }
+
+    .retourmoyen,
+    .retourprehi,
+    .retourhistoire,
+    .courssuiv,
+    .courssuiv1,
+    .courssuiv2,
+    .courssuiv3,
+    .courssuiv4,
+    .coursprec,
+    .retour1 {
+        padding-left: 27%;
+    }
+
+    /*formulaire*/
+    label {
+        font-size: 0.71em;
+    }
+
+    #envoi {
+        width: 45%;
+        font-size: 0.63em;
+        padding: 6px 1%;
+    }
+
+    #annule {
+        width: 45%;
+        font-size: 0.63em;
+        padding: 6px 2%;
+    }
+
+    /* construction */
+    .construction {
+        font-size: 1em;
+    }
+
+    /*plan site */
+    #titre_plan {
+        font-size: 25px;
+    }
+
+    .niv1 {
+        font-size: 18px;
+    }
+
+    .niv2 {
+        font-size: 13px;
+    }
+
+    .niv3 {
+        font-size: 14px;
+    }
+
+    .niv4 {
+        font-size: 12px;
+    }
+
+    .niv5 {
+        font-size: 10px;
+    }
+
+    /*histoire*/
+    #frise {
+        height: 100px;
+    }
+
+    .thtab {
+        font-size: 0.7em;
+    }
+    .tdtab {
+        font-size: 0.6em;
+    }
+
+    #lienshist {
+        padding-left: 5%;
+    }
+
+    .australo1 {
+        padding-left: 5%;
+        width: 90%;
+    }
+
+    .picture {
+        width: 100%;
+        height: 120px;
+    }
+
+    #siegeinvasion1 {
+        padding-left: 7%;
+    }
+
+    /*francais*/
+    caption {
+        font-size: 0.7em;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 0.76em;
+    }
+
+    #tabpronom {
+        width: 100%;
+        height: 140px;
+    }
+
+    .textexo {
+        font-size: 0.46em;
+    }
+
+    .textfr {
+        font-size: 1em;
+        padding-left: 0.5%;
+    }
+
+    #reforme {
+        width: 100%;
+        height: 75px;
+        padding-left: 0.5%;
+    }
+
+    .tab,
+    .tab_francais {
+        width: 100%;
+        height: 115px;
+        padding-left: 1%;
+    }
+
+    .tab_verbe {
+        width: 100%;
+        height: 200px;
+        padding-left: 1%;
+    }
+
+    .memo,
+    #video_maths,
+    #tabfonction,
+    .heure,
+    #Yourfilename,
+    .video_science,
+    .volcans,
+    .genetique {
+        width: 100%;
+    }
+
+    #centrepdf {
+        font-size: 0.7em;
+        padding-left: 25%;
+    }
+
+    #citationmaths2 {
+        padding-left: 3%;
+        font-size: 0.8em;
+    }
+
+    #phrasepreh {
+        font-size: 0.7em;
+        padding-left: 1%;
+    }
+
+    .lienspdf3 {
+        padding-left: 1%;
+    }
+
+    .tableau_picasso,
+    .tableau_cezanne,
+    .tableau_vangogh,
+    .visage_manga,
+    #couleurs_primaire,
+    #tab_couleurs,
+    #couleurs_chaudes,
+    #cercle_chromatique,
+    .regions,
+    #departements,
+    .relief,
+    #relief2,
+    #cours_eau,
+    #climat,
+    .carte_geo,
+    .production_france,
+    #euro,
+    .carte_monde,
+    .imgligne,
+    .imgligne1,
+    .imgpointdefuite,
+    #masse,
+    .evolpdf,
+    #evolution_homme,
+    #vid_evolution,
+    #chaine_volcans,
+    #plante_carnivore,
+    #lune,
+    #phase_lune,
+    .genetique2,
+    #tab_longueur,
+    #tab_capacite,
+    #horloge_exo,
+    .tableadd,
+    .tab2,
+    .tab_conjugaison,
+    .australo,
+    .invasion,
+    .invasion1,
+    .charlem,
+    .viking_image,
+    #siegeinvasion,
+    .imginvasion {
+        width: 100%;
+        padding-left: 1%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+    /*page d accueil*/
+    .banniere {
+        width: 100%;
+        height: 150px;
+
+    }
+
+    nav {
+        padding-left: 15%;
+        background-color: RGB(0, 52, 83);
+    }
+
+    nav a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 17px;
+        color: RGB(239, 86, 91);
+        text-transform: uppercase;
+    }
+
+    #divtitre {
+        letter-spacing: 2px;
+        font-size: 2.3em;
+        text-align: center;
+        padding-left: 1%;
+    }
+
+    .divpara {
+        text-align: center;
+        font-family: Palatino Linotype;
+        padding-left: 1%;
+        font-size: 1em;
+        line-height: 25px;
+    }
+
+    #logo {
+        height: 100px;
+        padding-left: 27%;
+    }
+
+    #piedpage {
+        margin-top: 5px;
+    }
+
+    .baspage {
+        padding-left: 0.1%;
+        font-size: 0.6em;
+    }
+
+    #titre {
+        font-size: 14px;
+    }
+
+    .lien2 {
+        font-size: 11px;
+    }
+
+    .lienspdf {
+        font-size: 0.7em;
+        padding-left: 2%;
+    }
+    .bouton {
+        padding: 2px;
+    }
+
+    .bouton3 {
+        padding-left: 1%;
+    }
+
+    .bouton5 {
+        padding-left: 6%;
+    }
+
+    .bouton6 {
+        padding-left: 2%;
+    }
+
+    .bouton7 {
+        padding-left: 2%;
+    }
+
+    .bouton8 {
+        padding-left: 15%;
+    }
+
+    .bouton9 {
+        padding-left: 14%;
+    }
+
+    .titresmatiere,
+    .h3mentions {
+        font-size: 25px;
+    }
+
+    .text_art {
+        font-size: 13px;
+    }
+
+    #titremat {
+        font-size: 20px;
+    }
+
+    #galerie {
+        padding-left: 25%;
+    }
+
+    #galerie2 {
+        width: 75%;
+        padding-left: 19%;
+    }
+
+    #galerie2 figure {
+        width: 50%;
+    }
+
+    #galerie4 {
+        padding-left: 16%;
+    }
+
+    #galerie5 {
+        padding-left: 27%;
+    }
+
+    #galerie7 {
+        padding-left: 12%;
+    }
+
+    .affiche_film {
+        float: left;
+        padding-top: 5px;
+    }
+    .titre_film {
+        font-size: 10px;
+        line-height: 25px;
+        padding-top: 25%;
+    }
+
+    #parapdf {
+        font-size: 0.64em;
+        padding-top: 2px;
+    }
+
+    /*ardoise*/
+    .courssuiv1 {
+        padding-left: 30%;
+    }
+
+    .retourmoyen,
+    .retourprehi,
+    .retourhistoire,
+    .courssuiv,
+    .courssuiv1,
+    .courssuiv2,
+    .courssuiv3,
+    .courssuiv4,
+    .coursprec,
+    .retour1 {
         padding-left: 35%;
     }
 
-    .retourmoyen {
-        padding-left: 11%;
+    /*formulaire*/
+    label {
+        font-size: 0.71em;
     }
+
+    #envoi {
+        width: 45%;
+        font-size: 0.63em;
+        padding: 6px 1%;
+    }
+
+    #annule {
+        width: 45%;
+        font-size: 0.63em;
+        padding: 6px 2%;
+    }
+
+    /* construction */
+    .construction {
+        font-size: 1em;
+    }
+
+    /*plan site */
+    #titre_plan {
+        font-size: 25px;
+    }
+
+    .niv1 {
+        font-size: 18px;
+    }
+
+    .niv2 {
+        font-size: 13px;
+    }
+
+    .niv3 {
+        font-size: 14px;
+    }
+
+    .niv4 {
+        font-size: 12px;
+    }
+
+    .niv5 {
+        font-size: 10px;
+    }
+
+    /*histoire*/
+    #frise {
+        height: 100px;
+    }
+
+    .thtab {
+        font-size: 0.7em;
+    }
+    .tdtab {
+        font-size: 0.6em;
+    }
+
+    #lienshist {
+        padding-left: 5%;
+    }
+
+    .australo1 {
+        padding-left: 5%;
+        width: 90%;
+    }
+
+    .picture {
+        width: 100%;
+        height: 120px;
+    }
+
+    #siegeinvasion1 {
+        padding-left: 7%;
+    }
+
+    /*francais*/
+    caption {
+        font-size: 0.7em;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 0.76em;
+    }
+
+    #tabpronom {
+        width: 100%;
+        height: 140px;
+    }
+
+    .textexo {
+        font-size: 0.46em;
+    }
+
+    .textfr {
+        font-size: 1em;
+        padding-left: 0.5%;
+    }
+
+    #reforme {
+        width: 100%;
+        height: 75px;
+        padding-left: 0.5%;
+    }
+
+    .tab,
+    .tab_francais {
+        width: 100%;
+        padding-left: 1%;
+    }
+
+    .tab_verbe {
+        width: 100%;
+        height: 200px;
+        padding-left: 1%;
+    }
+
+    .memo,
+    #video_maths,
+    #tabfonction,
+    .heure,
+    #Yourfilename,
+    .video_science,
+    .volcans,
+    .genetique {
+        width: 100%;
+    }
+
+    #centrepdf {
+        font-size: 0.7em;
+        padding-left: 25%;
+    }
+
+    #citationmaths2 {
+        padding-left: 3%;
+        font-size: 0.8em;
+    }
+
+    #phrasepreh {
+        font-size: 0.7em;
+        padding-left: 1%;
+    }
+
+    .lienspdf3 {
+        padding-left: 1%;
+    }
+
+    .tableau_picasso,
+    .tableau_cezanne,
+    .tableau_vangogh,
+    .visage_manga,
+    #couleurs_primaire,
+    #tab_couleurs,
+    #couleurs_chaudes,
+    #cercle_chromatique,
+    .regions,
+    #departements,
+    .relief,
+    #relief2,
+    #cours_eau,
+    #climat,
+    .carte_geo,
+    .production_france,
+    #euro,
+    .carte_monde,
+    .imgligne,
+    .imgligne1,
+    .imgpointdefuite,
+    #masse,
+    .evolpdf,
+    #evolution_homme,
+    #vid_evolution,
+    #chaine_volcans,
+    #plante_carnivore,
+    #lune,
+    #phase_lune,
+    .genetique2,
+    #tab_longueur,
+    #tab_capacite,
+    #horloge_exo,
+    .tableadd,
+    .tab2,
+    .tab_conjugaison,
+    .australo,
+    .invasion,
+    .invasion1,
+    .charlem,
+    .viking_image,
+    #siegeinvasion,
+    .imginvasion {
+        width: 100%;
+        padding-left: 1%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    /*page d accueil*/
+    .banniere {
+        width: 100%;
+        height: 250px;
+
+    }
+
+    nav {
+        padding-left: 25%;
+        background-color: RGB(0, 52, 83);
+    }
+
+    nav a {
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-size: 17px;
+        color: RGB(239, 86, 91);
+        text-transform: uppercase;
+    }
+
+    #divtitre {
+        letter-spacing: 2px;
+        font-size: 2.8em;
+        text-align: center;
+        padding-left: 1%;
+    }
+
+    .divpara {
+        text-align: center;
+        font-family: Palatino Linotype;
+        padding-left: 1%;
+        font-size: 1.5em;
+        line-height: 25px;
+    }
+
+    #logo {
+        height: 100px;
+        padding-left: 35%;
+    }
+
+    #piedpage {
+        margin-top: 5px;
+    }
+
+    .baspage {
+        padding-left: 0.1%;
+        font-size: 0.6em;
+    }
+
+    #titre {
+        font-size: 19px;
+    }
+
+    .lien2 {
+        font-size: 16px;
+    }
+
+    .lienspdf {
+        font-size: 0.7em;
+        padding-left: 2%;
+    }
+    .bouton {
+        padding: 2px;
+    }
+
+    .bouton3 {
+        padding-left: 1%;
+    }
+
+    .bouton5 {
+        padding-left: 6%;
+    }
+
+    .bouton6 {
+        padding-left: 5%;
+    }
+
+    .bouton7 {
+        padding-left: 3%;
+    }
+
+    .bouton8 {
+        padding-left: 15%;
+    }
+
+    .bouton9 {
+        padding-left: 14%;
+    }
+
+    .titresmatiere,
+    .h3mentions {
+        font-size: 25px;
+    }
+
+    .text_art {
+        font-size: 13px;
+    }
+
+    #titremat {
+        font-size: 20px;
+    }
+
+    #galerie {
+        padding-left: 5%;
+    }
+
+    #galerie2 {
+        width: 75%;
+        padding-left: 33%;
+    }
+
+    #galerie2 figure {
+        width: 50%;
+    }
+
+    #galerie4 {
+        padding-left: 16%;
+    }
+
+    #galerie5 {
+        padding-left: 15%;
+    }
+
+    #galerie7 {
+        padding-left: 12%;
+    }
+
+    .affiche_film {
+        float: left;
+        padding-top: 5px;
+    }
+    .titre_film {
+        font-size: 10px;
+        line-height: 25px;
+        padding-top: 25%;
+    }
+
+    #parapdf {
+        font-size: 0.64em;
+        padding-top: 2px;
+    }
+
+    /*ardoise*/
     .courssuiv {
-        padding-left: 20%;
+        padding-left: 35%;
     }
+
+    .retourmoyen,
+    .retourprehi,
+    .retourhistoire,
+    .courssuiv1,
+    .courssuiv2,
+    .courssuiv3,
+    .courssuiv4,
+    .coursprec,
     .retour1 {
-        padding-left: 11%;
+        padding-left: 23%;
+    }
+
+    /*formulaire*/
+    label {
+        font-size: 0.71em;
+    }
+
+    #envoi {
+        width: 45%;
+        font-size: 0.63em;
+        padding: 6px 1%;
+    }
+
+    #annule {
+        width: 45%;
+        font-size: 0.63em;
+        padding: 6px 2%;
+    }
+
+    /* construction */
+    .construction {
+        font-size: 1em;
+    }
+
+    /*plan site */
+    #titre_plan {
+        font-size: 25px;
+    }
+
+    .niv1 {
+        font-size: 18px;
+    }
+
+    .niv2 {
+        font-size: 13px;
+    }
+
+    .niv3 {
+        font-size: 14px;
+    }
+
+    .niv4 {
+        font-size: 12px;
+    }
+
+    .niv5 {
+        font-size: 10px;
+    }
+
+    /*histoire*/
+    #frise {
+        height: 100px;
+    }
+
+    .thtab {
+        font-size: 0.7em;
+    }
+    .tdtab {
+        font-size: 0.6em;
+    }
+
+    #lienshist {
+        padding-left: 5%;
+    }
+
+    .australo1 {
+        padding-left: 5%;
+        width: 90%;
+    }
+
+    .picture {
+        width: 100%;
+        height: 120px;
+    }
+
+    #siegeinvasion1 {
+        padding-left: 7%;
+    }
+
+    /*francais*/
+    caption {
+        font-size: 0.7em;
+    }
+
+    table,
+    th,
+    td {
+        font-size: 0.76em;
+    }
+
+    #tabpronom {
+        width: 100%;
+        height: 140px;
+    }
+
+    .textexo {
+        font-size: 0.46em;
+    }
+
+    .textfr {
+        font-size: 1em;
+        padding-left: 0.5%;
+    }
+
+    #reforme {
+        width: 100%;
+        height: 75px;
+        padding-left: 0.5%;
+    }
+
+    .tab,
+    .tab_francais {
+        width: 100%;
+        padding-left: 1%;
+    }
+
+    .tab_verbe {
+        width: 100%;
+        height: 200px;
+        padding-left: 1%;
+    }
+
+    .memo,
+    #video_maths,
+    #tabfonction,
+    .heure,
+    #Yourfilename,
+    .video_science,
+    .volcans,
+    .genetique {
+        width: 100%;
+    }
+
+    #centrepdf {
+        font-size: 0.7em;
+        padding-left: 25%;
+    }
+
+    #citationmaths2 {
+        padding-left: 3%;
+        font-size: 0.8em;
+    }
+
+    #phrasepreh {
+        font-size: 0.7em;
+        padding-left: 1%;
+    }
+
+    .img_prehistoire {
+        width: 50%;
+        height: 200px;
+        padding-left: 26%;
+    }
+
+    .lienspdf3 {
+        padding-left: 1%;
+    }
+
+    .tableau_picasso,
+    .tableau_cezanne,
+    .tableau_vangogh,
+    .visage_manga,
+    #couleurs_primaire,
+    #tab_couleurs,
+    #couleurs_chaudes,
+    #cercle_chromatique,
+    .regions,
+    #departements,
+    .relief,
+    #relief2,
+    #cours_eau,
+    #climat,
+    .carte_geo,
+    .production_france,
+    #euro,
+    .carte_monde,
+    .imgligne,
+    .imgligne1,
+    .imgpointdefuite,
+    #masse,
+    .evolpdf,
+    #evolution_homme,
+    #vid_evolution,
+    #chaine_volcans,
+    #plante_carnivore,
+    #lune,
+    #phase_lune,
+    .genetique2,
+    #tab_longueur,
+    #tab_capacite,
+    #horloge_exo,
+    .tableadd,
+    .tab2,
+    .tab_conjugaison,
+    .australo,
+    .invasion,
+    .invasion1,
+    .charlem,
+    .viking_image,
+    #siegeinvasion,
+    .imginvasion {
+        width: 100%;
+        padding-left: 1%;
     }
 
 }
