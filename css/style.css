@@ -607,8 +607,9 @@ figure {
 
 /*maths*/
 
-#horloge {
-    padding-left: 20%;
+#horloge_interactive{
+    width: 100%;
+    padding-left: 1%;
 }
 
 .heure {
